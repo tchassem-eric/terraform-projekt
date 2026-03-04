@@ -1,5 +1,5 @@
-resource "ionoscloud_datacenter" "proditech_vdc" {
-  name        = "proditech-vdc"
+resource "ionoscloud_datacenter" "my_vdc" {
+  name        = "my-vdc"
   location    = "de/fra"   
   description = "VDC Kubernetes Cluster"
 }
