@@ -1,8 +1,6 @@
 module "provider" {
-  source = "./modules/provider"
-
-  ionos_username = var.eric.tchassemngounou@it.nrw.de
-  ionos_password = var.ionos_password
+  source      = "./modules/provider"
+  ionos_token = var.ionos_token
 }
 
 module "vdc" {
