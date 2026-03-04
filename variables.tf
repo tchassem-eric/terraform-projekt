@@ -1,8 +1,5 @@
-variable "ionos_username" {
-  type = string
-}
-
-variable "ionos_password" {
-  type = string
-  sensitive = true
+variable "ionos_token" {
+  type        = string
+  description = "IONOS Cloud API token"
+  sensitive   = true
 }
