@@ -1,6 +1,3 @@
-variable "datacenter_id" {
-  type = string
-}
 
 resource "ionoscloud_kubernetes_cluster" "my_cluster" {
   name               = "my-cluster"
